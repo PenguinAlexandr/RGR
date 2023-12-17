@@ -96,7 +96,7 @@ public class MainActivity extends Activity implements SensorEventListener {
             float z = roundToThousandths(event.values[2]);
 
             // Оновлення тексту значеннями датчиків та кольором фону
-            String sensorText = "X: " + x + "\nY: " + y + "\nZ: " + z + "\nColor: #" +
+            String sensorText = "X: " + x + "\nY: " + y + "\nZ: " + z + "\nКолір: #" +
                     Integer.toHexString(((ColorDrawable) frameLayout.getBackground()).getColor());
             sensorData.setText(sensorText);
 
